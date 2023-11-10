@@ -123,17 +123,10 @@
 }
 
   
-  .linea{
-    color:#799979;
-    width: 70%;
-   margin-left: 15%;
-   margin-top: 10%;
-   
-  }
   .parrafo2{
     text-align: center;
     font-family: 'Dancing Script', cursive;
-     font-size: 30px;
+     font-size: 34px;
      color:#A6AB92;
      
   }
@@ -147,14 +140,14 @@
   .parrafo4{
     text-align: center;
     font-family: 'Dancing Script', cursive;
-     font-size: 28px;
+     font-size: 34px;
      color:#A6AB92;
-     margin-top: 13%;
+     margin-top: 15%;
   }
   .parrafo5{
     text-align: center;
     font-family: 'Dancing Script', cursive;
-     font-size: 30px;
+     font-size: 34px;
      color:#A6AB92;
      margin-top: 20%;
   }
@@ -231,8 +224,8 @@ margin-left: 46%;
 
 
 .loader {
-  --col1: rgba(250, 250, 250, 0.925);
-  --col2: rgb(187, 214, 175);
+  --col1: rgba(87, 87, 87, 0.925);
+  --col2: rgb(137, 168, 124);
   font-size: 20px;
   text-align: center;
   font-weight: 400;
@@ -242,25 +235,9 @@ margin-left: 46%;
   
 }
 
-.loader::after,
-.loader::before,
-.loader .text::after,
-.loader .text::before {
-  perspective: 800px;
-  animation: anim 2s ease-in-out infinite, dotMove 10s ease-out alternate infinite, move 10s linear infinite 1s;
-  ;
-  content: '●';
-  color: var(--col1);
-  position: absolute;
-  translate: -50px 500px;
-  width: 6px;
-  height: 6px;
-}
 
-.loader::before {
-  animation-delay: 3s;
-  color: var(--col1);
-}
+
+
 
 .loader .text::before {
   color: var(--col2);
@@ -349,56 +326,6 @@ margin-left: 46%;
   
  
   
-  
-  .cardimg{
-    width: 60%;
-    height: 60%;
-    margin-left: 20%;
-   
-  }
-  
-  .cardtitle{
-    text-align: center;
-    font-family: 'Dancing Script', cursive; 
-     font-size: 25px;
-     color: #888888;
-  }
-  .cardtext{
-    text-align: center;
-    font-family: 'Dancing Script', cursive;
-     font-size: 18px;
-     color: #888888;
-    margin-top: -3%;
-  }
-  .cardtext1{
-    text-align: center;
-    font-family: 'Dancing Script', cursive;
-     font-size: 18px;
-     color: #888888;
-     margin-top: 3%;
-  }
- 
-  
-  .btn_btn-primary{
-    padding: 1px 9px;
-    font-size: 24px;
-    font-weight: 1200;
-    border: none;
-    color: rgb(255, 255, 255);
-    background-color: #E08D84;
-    border-radius: 7px;
-    box-shadow: 1px 1px 30px -5px rgb(253, 213, 255);
-    cursor: pointer;
-    margin-left: 34%;
-    margin-top: 4%;
-    background-image: url(./imagenes/NMG4.gif);
-    background-size: 50%;
-    font-family: 'Dancing Script', cursive; 
-  }
-  
- .main1{
-  margin-top: 180%;
- }
 
  .whatsap{
   width: 40%;
